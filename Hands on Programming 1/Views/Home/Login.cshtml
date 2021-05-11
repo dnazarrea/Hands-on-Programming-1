@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Login";
+    ViewBag.Message = "Enter your username and password";
+}
+
+
+<div class="row">
+    <h2>@ViewBag.Title</h2>
+    <h4>@ViewBag.Message</h4>
+    <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" class="form-control" id="username">
+    </div>
+    <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" id="pwd">
+    </div>
+    <div class="checkbox">
+        <label><input type="checkbox"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+</div>
